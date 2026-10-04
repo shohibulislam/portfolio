@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Shohibul Islam Siam</title>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- font -->
+    <style type="text/tailwindcss">
+        @theme{
+            --font-geist: "Geist", sans-serif;
+        }
+    </style>
+</head>
+<body class="text-[#fafafa] bg-[#1C1C1C] font-geist flex flex-col items-center">
+    <main class="px-[24px] pt-[80px] pb-[24px] max-w-[700px]">
+        <div class="mb-[30px]">
+            <h1 class="text-[24px] font-[600] leading-[32px] mb-[10px]">About me</h1>
+            <div class="text-[16px] font-[400] leading-[24px] text-[#C7C7CC] flex flex-col gap-[20px]">
+                <p>I'm Shohibul Islam Siam. A final-year Computer Science Diploma Student at Daffodil Polytechnic Institute, based in Bangladesh.</p>
+                <p>As a career, Software Engineering was my first choice. To get there, I started my programming journey with C language to learn all the fundamentals. Then I focused on problem solving and competitive programming with C++. I've solved over 260 problems across all the platforms <a href="https://codeforces.com/profile/shohibul602" target="_blank" class="transition-colors duration-200 hover:text-[#fafafa] border-b border-[#c7c7cc]">Codeforces</a>, <a href="https://www.codechef.com/users/shohibul602" target="_blank" class="transition-colors duration-200 hover:text-[#fafafa] border-b border-[#c7c7cc]">CodeChef</a>, <a href="https://leetcode.com/u/shohibul/" target="_blank" class="border-b border-[#c7c7cc transition-colors duration-200 hover:text-[#fafafa]">LeetCode</a>. Along the way, I have gathered basic data structures and algorithms knowledge.</p>
+                <p>With all this mixed knowledge of mine, I'm currently looking for a Software Development internship to begin my professional journey.</p>
+                <p>Feel free to connect, I would love to here from you.</p>
+            </div>
+        </div>
+        <div class="flex items-center gap-[20px] mb-[50px]">
+            <a href="https://drive.google.com/file/d/1JVBAA27fDBnk2IlE9EViEK2hINH1kQJC/view?usp=sharing" target="_blank" class="text-[#18181b] bg-[#fafafa] inline-block text-[14px] font-medium py-[8px] px-[16px] transition-colors duration-100 hover:bg-[#e3e3e3]">Resume</a>
+            <a href="contact.html" class="h-fit transition-colors duration-200 hover:text-[#fafafa] border-b border-[#c7c7cc] text-[16px] font-[400] leading-[24px] text-[#C7C7CC]">Contact me</a>
+        </div>
+
+        <footer class="flex flex-col items-center gap-[10px]">
+            <div class="font-[400] text-[14px] leading-[20px] flex gap-[20px]">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <p>&copy; <span id="year"></span> Shohibul Islam Siam</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Shohibul Islam Siam</title>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- font -->
+    <style type="text/tailwindcss">
+        @theme{
+            --font-geist: "Geist", sans-serif;
+        }
+    </style>
+
+</head>
+<body class="text-[#fafafa] bg-[#1C1C1C] font-geist flex flex-col items-center">
+    <main class="px-[24px] pt-[80px] pb-[24px] max-w-[700px]">
+        <div class="mb-[30px]">
+            <h1 class="text-[24px] font-[600] leading-[32px] mb-[10px]">Get in touch</h1>
+            <p class="text-[16px] font-[400] leading-[24px] text-[#C7C7CC]">I'm Shohibul Islam Siam. A final-year Computer Science Diploma Student at Daffodil Polytechnic Institute, based in Bangladesh.</p>
+        </div>
+        <div>
+            <h3 class="text-[14px] font-[500] leading-[20px] mb-[10px]">Contact info</h3>
+            <div class="text-[16px] font-[400] leading-[24px] text-[#C7C7CC] flex flex-col gap-[10px]">
+                <a href="mailto:shohibul602@gmail.com" target="_blank" class="hover:underline">shohibul602@gmail.com</a>
+                <a href="https://github.com/shohibulislam" target="_blank" class="hover:underline">github.com/shohibulislam</a>
+                <a href="https://www.linkedin.com/in/shohibul-islam-siam" target="_blank" class="hover:underline">linkedin.com/in/shohibul-islam-siam</a>
+            </div>
+        </div>
+        <footer class="flex flex-col items-center gap-[10px] mt-[50px]">
+            <div class="font-[400] text-[14px] leading-[20px] flex gap-[20px]">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+            </div>
+            <p>&copy; <span id="year"></span> Shohibul Islam Siam</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
